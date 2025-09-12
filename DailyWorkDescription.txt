@@ -1,0 +1,222 @@
+21-04-2025:
+	-->> 12pm - 3pm == Went to Corporate office for Account Creation
+	-->> 9am - 10am == Creating Logic based Scenario to start work on with Mulesoft(UEMS Application).
+	-->> 10am - 11am == Contact Manaf to setup my desktop.
+	-->> 11:15am - 12pm == Scrum meeting with KJ.
+	-->> 3pm - 4pm == Downloading and Installing MySQL Workbench, Anypoin Studio(Mule ESB).
+	-->> 4:15pm - 6pm == -- Postman installation, Tried to install MS Office(Not done), 
+			     -- Create Mule flow and datbases to transfer data from local CSV file into database table without any duplicates(Processing the data).
+
+
+22-04-2025:
+	-->> 9am - 10:00am == Working with the mule flow, to read data from Local CSV file and Complex Data Processing to insert into the database.
+	-->> 10am - 11am == Created Flow which can transfer data from local excel file to database without any duplicates and bulk insert operstions were done.
+	-->> 11:15am - 12:30pm == Working with Anypoint studio to create a flow which fetches the record based on query params.
+	-->> 12:30pm - 1:00pm == Referring Mulesoft Documentation
+	-->> 2pm - 4pm == Created Documentation on UEMS Application(Mule Flow).
+	-->> 4:15pm - 6pm == Trying to fetch single record from database based on Name field via Mule flow.
+
+23-04-2025:(Time IN)
+	-->> 9am - 10am == Created Mule flow to fetch single record from the database(Query Parameters).
+	-->> 10:15am - 11am == Working on salesforce, creates Custom object and its fields with corresponding validation Rules.
+	-->> 11am - 11:15am == Scrum Meeting
+	-->> 11:30am - 1:00pm == Preparing for Mulesoft Interview(5+ Years).
+	-->> 2pm - 3:30pm == KT session from Data Engineering team. (ETL - Testing Interview).
+
+24-04-2025:
+	-->> Whole day prepared for interview and attend client interview(Virtusa - 5+ yrs).
+		Questions:
+1.  Self Intro.
+2.  Overview of Mulesoft.
+3.  How to handle large volumes of data in anypoint studio(Scenario Based)(Streaming and Batch-Processing).
+4.  API - Led Connectivity Approach(Scenario Based - Banking Application(Entire Application Explanation)).
+5.  Error Handling Strategies(Global Error Handlers, On-Error Propagate, On- Error Continue).
+6.  What are the Variables in mulesoft and its types? (Scenario Based Explanation).
+7.  How to integrate with Databases? (MySQL)(Scenario Based using choice router).
+8.  How to integrate Salesforce with Mulesoft and how to automate workflows?
+9.  when to use Try-Catch block to handle Exceptions (Scenario Based).
+10. How to apply custom policies in Mule API, including securities and rate limiting policies(Scenario Based Explanation).
+11. How to Monitoring the API in deploy level(What are the deployment tools used).
+12. Explain Load Balancer? how it works?
+13. Mule runtime engine and what are the layers available in mulesoft?
+14. Core Connectors (Choice Router, Scatter Gather and Round Robin) when and where to use?
+
+25-04-2025:
+	-->> 9am - 1:15pm == Attend Mulesoft Webiner and learned about How to implement Agentforce in mulesoft.
+	-->> 2pm - 4pm == Working on Salesforce Flow triggers, UEMS Application(Routing Emails).
+		Refer below links: https://developer.salesforce.com/agentforce-workshop/agents/overview
+				   https://help.salesforce.com/s/articleView?id=platform.api_catalog_considerations.htm&type=5
+	-->> 4:15pm - 6pm == Resumed UEMS Application, created automated workflow using flow triggers.
+
+28-04-2025 (Monday):
+	-->> 9am - 11am == Worked on Salesforce(UEMS Application). Created flows to update IsEscalated field based on Leave__c Custom Object.
+	-->> 11:15am - 1pm == In Mulesoft created flow to capture Leave object records immediately after creation and push to the database table based on IsEscalated Field from Leave__c custom Object.
+	-->> 2pm - 4pm == Learned about Veeva Vault connectors and fetched document/object data from prana user 1, and writes those data in Excel Format(.CSV)
+	-->> 4:30pm - 6pm == Created Documents about all day what I am worked on and shared to KJ via Cliq.
+
+29-04-2025 (Tuesday):
+	-->> 9am - 11am == Learning about Veeva vault Document/Object Structure in QDocs, Rendition and its types, Document check-in and check-out in Veeva Vault.
+	-->> 11:15am - 1pm == Mulesoft Documention, refers the Veeva Vault Connectors Example.
+	-->> 2pm - 4pm == Using GET DOCUMENTS Connectors, fetches the document whole details and try to push into the MySQL Database.
+				(Issue faced == Need "Read Access" permission for system fields to push the data).
+	-->> 4:15pm - 6pm == Created Documentation about all day what I am worked on and shared to KJ via Cliq.
+
+30-04-2025 (Wednesday):
+	-->> 9am - 6pm : working with veeva vault connectors in Mulesoft and learned about vault.
+
+01-05-2025 (Thursday): Office leave (May 1).
+
+02-05-2025 (Friday): Working on vault connectors to integrate with mulesoft and fetch picklist values and Audit history.
+			Also implemented how to unauthorize the vault user using unauthorize connector via mulesoft
+
+05-05-2025 (Monday) : 
+	-->> 9am - 1pm : Studied about Spark Message in veeva vault. And Configure Spark Queues, Integration Rules, Connections and Message Processors.
+				(Created Documentation on spark message). Need permission for Vault JAVA SDK.(But it is not available.)
+	-->> 2pm - 6pm : In Mulesoft, created a flow that reads a CSV file which has 1 lakh of records and filters out the specific records on specific fields.
+
+06-05-2025 (Tuesday):
+	-->> 9am - 1pm : In Mulesoft, Updated the flow which reads CSV file. Used Batch process and scatter gather connectors in mule flow and Updates the dataweave to process the transformation smoothly.
+	-->> 2pm - 6pm : Created RAML API in Anypoint Platform (Isurance API) and published it into Anypoint Exchange. Imported the published API from exchange into anypoint studio.
+
+07-05-2025 (Wednesday):
+	--> 9am - 1pm : Updated the Insurance API, to integrate with DB's and create text files to map the fields.
+	--> 2pm - 6pm : working with URI Parameters, to fetch acc details based on account ID.
+
+08-05-2025 (Thursday):
+	--> 9am - 6pm : Salesforce object creations and the integrate with mule flows to automatic record creations. whole day working on business logic.
+
+09-05-2025 (Friday):
+	--> 9am - 6pm : Triggering salesforce to create records via mulesoft flow(event triggers.)
+
+12-05-2025 (monday): Sick Leave(Skin rashes).
+
+13-05-2025 (tuesday):
+	--> Prepared for veeva integration client interview {But Cancelled}.
+
+14-05-2025 (Wednesday):
+	--> 9am - 1pm : worked on salesfore.com, to create flows to object dependent records.
+	--> 1pm - 5pm : Completed mule account creation flow in salesforce and database.
+
+15-05-2025 (Thursday):
+	--> 9am - 1pm : Working on Query params on mule flow for specific endpoint.
+	--> 2:15pm - 5:30pm : Working on URI params for another mule for in an application.
+
+16-05-2025 (Friday):
+	--> 9am - 11am : preparing documentation on query and uri params and shared with KJ.
+	--> 11:15am - 1pm : Studied about implementation of Oauth2.0 in mule app.
+
+19-05-2025 (Monday):
+	--> 9am - 6pm : Implementation of OAuth 2.0 to the mule app, created Mule App for client creation and deployed to cloudhub implemented in Application.
+
+20-05-2025 (Tuesday):
+	-->9am - 6pm : Modifying the APIs routes between the salesforce and databases.
+
+21-05-2025 (Wednesday): 
+	-->9am -6pm :   --Version upgradation of API, created github account and push the project into github repository via git commands.
+			--Working on Alternate method to push the project from Studio to Repo. (Directly without Git commands). 
+
+
+22-05-2025 (Thursday):
+	-->  9am - 12pm -- Prepared a Business logic to create application via mule flows which integrates with multiple platforms.
+			-- created a RAML Specification which contains endpoints to do make a application to call and process the data with respect to the specific endpoints.
+			-- published into exchange and import to studio. Configuring External configurations (SF,SP,Oracle,GPT NLP/AI).
+
+23-05-2025 (Friday):
+	--> 9am - 6pm -- Worked on open AI GPT for Text Analysis. Created Mule flows to analyze the text.
+
+26-05-2025 (Monday):
+	--> 9am - 12pm -- Microsoft Azure Fundamentals, get to start with Azure Integration Services.
+			  Mule Flow : Microsoft Sharepoint Integration policy have been changed in Anypoint Components, Tomorrow plan is to create Azure App via that need to make connection between mulesoft and sharepoint.
+
+
+27-05-2025 (Tuesday):
+	--> 9am - 6pm -- I've completed integration between sharepoint and mulesoft to perform CRUD operations in sharepoint from Mulesoft.
+			 But, it requires admin permission. because the account I signed in was Prana Life Sciences, It doesn't have access to make any changes internally from external resources.
+
+28-05-2025 (Wednesday):
+	--> 9am - 11:30am = I've Explored the Benefits of Cloud Computing.
+	--> 11:45am - 12:45pm = Overview of LWC Components(Salesforce).
+	--> 2pm - 4:20pm = I've created the LWC Components for INS API Which I created via Mulesoft.
+	--> 4:35pm - 5:45pm = Created an Interactive UI in salesforce Home Page with Buttons and Static Resources.
+
+29-05-2025 (Thursday):
+	--> 9am - 6pm : Salesforce LWC Components : Working on creating a Interactive UI in salesforce page
+	--> 6pm - 8:30pm : Integration Class by Suresh sir.
+
+30-05-2025 (Friday):
+	--> LWC Components : salesforce LWC Components
+	--> 6pm - 8pm : Integration : By Suresh sir.
+
+02-06-2025 (Monday):
+	--> 9am - 3pm : Documentation creation based on LWC Component I created and shared to KJ. (Phase-1)
+	--> 3:15 pm -6pm : Connected apps, Made integration with mulesoft anypoint platform account with salesforce org.
+
+03-06-2025 (Tuesday):
+	--> 9am - 11am : Learning about Microsoft Azure Integration Services.
+	--> 11:15am - 4pm : working on LWC Components creating buttons and UI.
+
+04-06-2025 (Wednesday):
+	--> 9am - 5pm : TLS Configuration between server and client Applications (Mulesoft)
+	--> 5pm to 6pm : Creating Documentation based on LWC Components.
+
+05-06-2025 (Thursday):
+	--> 9am - 1pm : One-way ssl handshake between two mule application.
+	--> 2pm - 6pm : Working on final phase of the LWC Components.
+
+06-06-2025 (Friday):
+	--> 9am - 6pm : Kafka Implementation via Mule flow.
+
+09-06-2025 (Monday):
+	--> Integration with Salesforce & Worked with LWC Components(Full day worked on Components).
+
+10-06-2025 (Tuesday):
+	--> 9am - 5pm : Okta SSO for salesforce (sign on)
+
+11-06-2025 (Wednesday)
+	--> 9am - 6pm : Kafka with MuleSoft == Creating publisher and listens to the message via message listener and push the data to salesforce CRM.
+
+12-06-2025 (Thursday):
+	--> CRUD Operation (POC) Provided by Deepak.
+
+13-06-2025 (Friday):
+	--> Vlocity(Omnistudio)
+
+16-06-2025 (Monday):
+	--> Prepared for client Interview and attend 2 rounds of client interview(Virtusa).
+
+
+
+
+
+
+
+
+
+
+24-06-2025 (Tuesday):
+	--> 9am - 11am : Created Python EDL System. Backend System (Analytics Engine).
+	--> 11:15am - 1pm : Creates System API which calls(Integrates) Analytics Engine with System API.
+	--> 1:45pm - 4pm : Creates Experience API Which Calls(Integrates) System API.
+	--> 4:15pm - 6pm : Creates Apex callout via salesforce to make callout to Exp API ==> Sys API ==> Analytics Engine.
+
+25-06-2025 (Wednesday):
+	Tasks completed : Experience API and System API deployed to cloudHub via anypoint platform.Configured ngrok public server for python EDL System, System API to Backend System is verified. But, Experience API -> Sys API -> Backend system is not Integrated.
+			  The integration working fine under the localhost.
+
+	Tasks in progress : Working on Exp API to make a call to both Sys API and EDL System to get response.
+
+	Plans for the next day : Instead of ngrok, planned to switch render platform to deploy Flask Framework, then to make a call.
+
+
+01-07-2025 (Tuesday):
+	--> 9am - 11am : Configuring Mule OAuth2 Provider mule app.
+	--> 11:15am - 1pm : Configuring API Manager, Creates RAML and Adds to API Manager.
+	--> 1:45pm - 4pm : API Autodiscovery ID, (Not working -> Not Deploying to cloudhub).
+	--> 4:15pm - 5:45pm : Preparing for Interview.
+
+09-07-2025 (Wednesday):
+	--> 9am - 10am : Watched NGCX KT session from teams(prajakta,swarna & shiva).
+	--> 10:15 - 12:30 : Completed "Business KT" from confluence page.
+	--> 12:30pm - 1pm : Check on with RIS Emails and messages and did some personal work on APIs.
+	--> 1pm - 2pm : Lunch Break
+	
